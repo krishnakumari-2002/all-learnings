@@ -6,3 +6,17 @@ if __name__ == '__main__':
     string, max_width = input("Enter the string:"), int(input("Enter the max_width:"))
     result = wrap(string, max_width) 
     print(result)
+
+
+
+# Enter the string:ABCDEFGHIJKLIMNOQRSTUVWXYZ
+# Enter the max_width:4
+
+# ABCD
+# EFGH
+# IJKL
+# IMNO
+# QRST
+# UVWX
+# YZ
+
